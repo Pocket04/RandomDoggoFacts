@@ -1,12 +1,12 @@
 
 import './App.css'
-import BreedsList from "./component/BreedsList.jsx";
+import RandomFactDisplay from "./component/RandomFactDisplay.jsx";
 
 function App() {
 
   return (
     <div>
-        <BreedsList />
+        <RandomFactDisplay />
     </div>
   )
 }
