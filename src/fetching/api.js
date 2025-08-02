@@ -1,5 +1,4 @@
 const BASE_URL= "https://dogapi.dog/api/v2/facts"
-const API_KEY = "kF3zQj1RKXhXPxv2ivYwOh3dQv1fqgtSTsszx35E"
 
 async function fetchBreedData(){
     const response = await fetch(`${BASE_URL}`, {
@@ -14,3 +13,4 @@ async function fetchBreedData(){
     return (data.data);
 }
 export default fetchBreedData;
+
