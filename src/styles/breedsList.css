@@ -1,0 +1,14 @@
+.dog-fact-container {
+    background-color: #242424;
+    border-radius: 5px;
+    padding: 20px;
+    width: 30vw;
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+}
+.dog-fact-container button {
+    margin-top: auto;
+    background-color: #888888;
+    color: #ffffff;
+}
